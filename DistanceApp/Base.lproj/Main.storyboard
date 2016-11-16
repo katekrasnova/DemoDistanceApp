@@ -28,7 +28,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="headTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="593-dw-6FK">
-                                <rect key="frame" x="123.5" y="320" width="128" height="30"/>
+                                <rect key="frame" x="123.5" y="290" width="128" height="30"/>
                                 <state key="normal" title="Calculate Distance"/>
                                 <connections>
                                     <action selector="calculateButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BrC-3K-6qn"/>
@@ -81,12 +81,12 @@
                             <constraint firstItem="2Ec-j4-XsN" firstAttribute="leading" secondItem="F1X-Rz-thk" secondAttribute="leading" id="2F3-h7-DFk"/>
                             <constraint firstItem="aXp-lT-AjX" firstAttribute="leading" secondItem="NT2-f0-Rb3" secondAttribute="trailing" constant="25" id="3ow-gM-he9"/>
                             <constraint firstItem="2Ec-j4-XsN" firstAttribute="leading" secondItem="vuP-ZS-eae" secondAttribute="leading" id="8bt-a5-Xuh"/>
-                            <constraint firstItem="593-dw-6FK" firstAttribute="top" secondItem="vuP-ZS-eae" secondAttribute="bottom" constant="115" id="A4M-wW-pQU"/>
+                            <constraint firstItem="593-dw-6FK" firstAttribute="top" secondItem="vuP-ZS-eae" secondAttribute="bottom" constant="85" id="A4M-wW-pQU"/>
                             <constraint firstItem="nmO-hU-ldA" firstAttribute="leading" secondItem="vuP-ZS-eae" secondAttribute="trailing" constant="25" id="GeI-GR-op0"/>
                             <constraint firstItem="2Ec-j4-XsN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LGa-Qm-yG2"/>
                             <constraint firstItem="2Ec-j4-XsN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="MGB-HD-nhY"/>
                             <constraint firstItem="2Ec-j4-XsN" firstAttribute="trailing" secondItem="aXp-lT-AjX" secondAttribute="trailing" id="MSI-bm-1Uh"/>
-                            <constraint firstItem="593-dw-6FK" firstAttribute="top" secondItem="F1X-Rz-thk" secondAttribute="bottom" constant="68" id="N1f-PE-VVe"/>
+                            <constraint firstItem="593-dw-6FK" firstAttribute="top" secondItem="F1X-Rz-thk" secondAttribute="bottom" constant="38" id="N1f-PE-VVe"/>
                             <constraint firstItem="593-dw-6FK" firstAttribute="leading" secondItem="vuP-ZS-eae" secondAttribute="trailing" constant="-61" id="Qgo-vZ-92m"/>
                             <constraint firstItem="593-dw-6FK" firstAttribute="leading" secondItem="NT2-f0-Rb3" secondAttribute="trailing" constant="-61" id="Rn9-ZI-ruh"/>
                             <constraint firstItem="2Ec-j4-XsN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="21" id="SYj-7k-wYl"/>
@@ -98,7 +98,7 @@
                             <constraint firstItem="593-dw-6FK" firstAttribute="leading" secondItem="F1X-Rz-thk" secondAttribute="trailing" constant="-61" id="o6T-fu-71G"/>
                             <constraint firstItem="NT2-f0-Rb3" firstAttribute="top" secondItem="B5W-th-koQ" secondAttribute="bottom" constant="15" id="oAl-P2-8YB"/>
                             <constraint firstItem="2Ec-j4-XsN" firstAttribute="trailing" secondItem="voC-xi-c3m" secondAttribute="trailing" id="qAC-jr-INR"/>
-                            <constraint firstItem="593-dw-6FK" firstAttribute="top" secondItem="NT2-f0-Rb3" secondAttribute="bottom" constant="162" id="rxs-iN-LBX"/>
+                            <constraint firstItem="593-dw-6FK" firstAttribute="top" secondItem="NT2-f0-Rb3" secondAttribute="bottom" constant="132" id="rxs-iN-LBX"/>
                             <constraint firstItem="2Ec-j4-XsN" firstAttribute="leading" secondItem="B5W-th-koQ" secondAttribute="leading" id="twf-oJ-wFX"/>
                             <constraint firstItem="B5W-th-koQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uDr-uy-goR"/>
                             <constraint firstItem="593-dw-6FK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xBk-FY-XJj"/>

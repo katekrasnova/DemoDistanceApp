@@ -88,6 +88,7 @@
     };
     
     [self.req start];
+    [self.view endEditing:YES];
     
 }
 
